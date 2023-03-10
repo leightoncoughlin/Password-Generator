@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+}
+
+body { 
+    background-color: rgba(9,9,9,1);
+}
+
+.header-container{
+    background-color: rgb(31, 31, 31);
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img{
+    width: 50px;
+}
+
+.header span{
+    color: #D15D6E;
+}
+
+
+.container{
+    width: 600px;
+    margin: 100px auto;
+    background-color: rgb(31, 31, 31);
+    padding: 60px;
+    border-radius: 20px;
+}
+
+.container h1{
+    line-height: 55px;
+    font-size: 50px;
+}
+
+.container span{
+    color: #D15D6E;;
+}
+
+.container p {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(177, 177, 177);
+}
+
+.container button {
+    background-color: #D15D6E;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.container button:hover{
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.container hr {
+    border-color: rgb(82, 81, 81);
+    margin:40px 0;
+}
+
+.passwords {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passwords div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(71, 71, 71);
+    border-radius: 10px; 
+    width: 43%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.passwords div svg{
+    padding-right: 12px;
+    color: white;
+}
+
+.passwords div p{
+    transform: translateY(-10px);
+    padding-left: 12px;
+    color: white;
+    
+}
+
+.passwords div:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in-out;
+}
+
+.alert {
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+
+.clicked {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+
+
+
