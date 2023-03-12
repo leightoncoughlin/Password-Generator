@@ -9,26 +9,26 @@ body {
     background-color: rgba(9,9,9,1);
 }
 
-.header-container{
+.header-container {
     background-color: rgb(31, 31, 31);
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     padding: 10px 20px;
 }
 
-.header img{
+.header img {
     width: 50px;
 }
 
-.header span{
+.header span {
     color: #249233;;
 }
 
 
-.container{
+.container {
     width: 600px;
     margin: 55px auto;
     background-color: rgb(31, 31, 31);
@@ -36,12 +36,12 @@ body {
     border-radius: 20px;
 }
 
-.container h1{
+.container h1 {
     line-height: 55px;
     font-size: 50px;
 }
 
-.container span{
+.container span {
     color: #249233;
 }
 
@@ -61,7 +61,7 @@ body {
     font-size: 20px;
 }
 
-.container button:hover{
+.container button:hover {
     scale: 1.1;
     transition: 0.3s;
 }
@@ -76,7 +76,7 @@ body {
     justify-content: space-between;
 }
 
-.passwords div{
+.passwords div {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,19 +87,19 @@ body {
     cursor: pointer;
 }
 
-.passwords div svg{
+.passwords div svg {
     padding-right: 12px;
     color: white;
 }
 
-.passwords div p{
+.passwords div p {
     transform: translateY(-10px);
     padding-left: 12px;
     color: white;
     
 }
 
-.passwords div:hover{
+.passwords div:hover {
     scale: 1.1;
     transition: 0.3s ease-in-out;
 }
