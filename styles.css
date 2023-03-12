@@ -16,7 +16,7 @@ body {
 .header{
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10px 20px;
 }
 
 .header img{
@@ -30,9 +30,9 @@ body {
 
 .container{
     width: 600px;
-    margin: 100px auto;
+    margin: 55px auto;
     background-color: rgb(31, 31, 31);
-    padding: 60px;
+    padding: 50px;
     border-radius: 20px;
 }
 
