@@ -115,6 +115,16 @@ body {
     transition: 0.5s;
 }
 
+.copy {
+    position: absolute;
+    font-size: 15px;
+    right: 0;
+    bottom: 0;
+    margin: 15px;
+    color: grey;
+    text-decoration: none;
+}
+
 
 
 
